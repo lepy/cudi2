@@ -3,17 +3,17 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:lepy.github.io:cudi2",
+  "id": "did:web:cudi2.1-2.co",
   "verificationMethod": [{
-    "id": "did:web:lepy.github.io:cudi2#scale",
+    "id": "did:web:cudi2.1-2.co#scale",
     "type": "JsonWebKey2020",
-    "controller": "did:web:lepy.github.io:cudi2",
+    "controller": "did:web:cudi2.1-2.co",
     "publicKeyJwk": {
       "kty": "OKP",
       "crv": "Ed25519",
       "x": "qhqVmPevNBx1W-amRiTzOizsqtVHiOVGQMRMBM29cE0"
     }
   }],
-  "assertionMethod": ["did:web:lepy.github.io:cudi2#scale"],
-  "authentication": ["did:web:lepy.github.io:cudi2#scale"]
+  "assertionMethod": ["did:web:cudi2.1-2.co#scale"],
+  "authentication": ["did:web:cudi2.1-2.co#scale"]
 }
