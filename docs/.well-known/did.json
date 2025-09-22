@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:lepy.github.io:cudi2",
+  "verificationMethod": [{
+    "id": "did:web:lepy.github.io:cudi2#scale",
+    "type": "JsonWebKey2020",
+    "controller": "did:web:lepy.github.io:cudi2",
+    "publicKeyJwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "qhqVmPevNBx1W-amRiTzOizsqtVHiOVGQMRMBM29cE0"
+    }
+  }],
+  "assertionMethod": ["did:web:lepy.github.io:cudi2#scale"],
+  "authentication": ["did:web:lepy.github.io:cudi2#scale"]
+}
